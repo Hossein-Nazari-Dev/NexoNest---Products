@@ -1,4 +1,4 @@
-NexoSolve 0.1.8 Beta - Windows x64 / Rhino 8
+NexoSolve 0.0.1 Beta - Windows x64 / Rhino 8
 
 1. Close Rhino before replacing an older plugin.
 2. Extract these files into %APPDATA%/Grasshopper/Libraries/NexoSolve-Portable-Windows-x64.
