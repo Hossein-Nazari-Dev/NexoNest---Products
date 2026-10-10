@@ -6,6 +6,7 @@ Latest testing version: **0.0.2 Beta**. Windows, Rhino 8.34+ and .NET 8 required
 
 - Drag the `.yak` package into Rhino, then restart Rhino and run `NexoBreak`.
 - For a manual install, extract the ZIP to a permanent folder and install `NexoBreak.rhp` through Options > Plug-ins > Install. The RHP also works alone.
+- Rename the versioned standalone RHP download to `NexoBreak.rhp` before installing it; keep that filename for in-app manual updates.
 - Use one installation method and remove duplicate older copies.
 - Verify downloads using the release's SHA256SUMS.txt.
 
