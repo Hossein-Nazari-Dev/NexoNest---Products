@@ -1,12 +1,17 @@
-NexoSolve portable installation - Windows x64 / Rhino 8
+NexoSolve 0.1.8 Beta - Windows x64 / Rhino 8
 
 1. Close Rhino before replacing an older plugin.
-2. Copy NexoSolve.gha, Desktop and INSTALL.txt into Grasshopper Libraries as NexoSolve.
-3. Keep NexoSolve.gha and the Desktop folder together. Do not copy only the GHA.
+2. Extract these files into %APPDATA%/Grasshopper/Libraries/NexoSolve-Portable-Windows-x64.
+3. Keep NexoSolve.gha, the executable and Samples together for portable use.
 4. Remove older NexoSolve plugin copies to avoid loading two versions.
 5. Open Rhino / Grasshopper and click Open NexoSolve on Connector.
-6. For this portable version, set Connector App Path to Desktop/Nexonest.NexoSolve.Desktop.exe.
-   A blank App Path opens an existing managed Desktop first, then the adjacent Desktop.
+6. Leave Connector App Path blank to use this fixed installation folder.
+   You can set App Path explicitly for a manual installation.
+
+Automatic app installation: %APPDATA%/Grasshopper/Libraries/NexoSolve-Portable-Windows-x64
+Official samples: %APPDATA%/Grasshopper/Libraries/NexoSolve-Portable-Windows-x64/Samples
+Club > Open NexoSolve folder opens that location. Close the app before deleting it manually.
+The GHA belongs in Grasshopper Libraries and requires a Rhino restart after replacement.
 
 No online installation is required. The Windows runtime is included.
 Keep simulation results outside this installation folder.
