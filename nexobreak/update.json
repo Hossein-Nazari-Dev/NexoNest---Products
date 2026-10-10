@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "product": "nexobreak",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "channel": "beta",
   "minimumRhinoVersion": "8.34",
-  "releaseUrl": "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/tag/nexobreak-v0.0.2",
-  "notes": "Focusable subtasks, smoother work/break transitions, staged game difficulty, clearer viewport controls and verified updates from Account. Windows Rhino 8.34+ with .NET 8. Beta: native Rhino acceptance is pending.",
+  "releaseUrl": "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/tag/nexobreak-v0.0.3",
+  "notes": "Compact update results and readable status cards, fixed dashboard controls with task-only scrolling, consistent UI fonts and responsive break choices. Windows Rhino 8.34+ with .NET 8. Beta: native Rhino acceptance is pending.",
   "rhp": {
-    "url": "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/download/nexobreak-v0.0.2/NexoBreak-0.0.2.rhp",
-    "size": 3881984,
-    "sha256": "23bc225b7924a9f0bd60631acf0606de1f3971708da2cbb7eb394922da7ad394"
+    "sha256": "4c788e9aee2038489396c92b5ad077f80e1c77a41ce2996fc97819a0bbedcfc2",
+    "size": 3887616,
+    "url": "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/download/nexobreak-v0.0.3/NexoBreak-0.0.3.rhp"
   },
   "yak": {
-    "url": "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/download/nexobreak-v0.0.2/nexobreak-0.0.2-rh8_34-win.yak",
-    "size": 3679920,
-    "sha256": "adcbfb88162e4d4e78c8809ce5b1e7397a820ce953f9499bd7bce0fe6bd571a4"
+    "sha256": "ff72d0fc1f86f6a04ed77ec55c5c96de514647c10932177318e796c481ab79cf",
+    "size": 3682782,
+    "url": "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/download/nexobreak-v0.0.3/nexobreak-0.0.3-rh8_34-win.yak"
   }
 }
