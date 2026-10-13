@@ -1,4 +1,4 @@
-NexoSolve 0.0.1 Beta - Windows x64 / Rhino 8
+NexoSolve 0.0.2 Beta - Windows x64 / Rhino 8
 
 1. Close Rhino before replacing an older plugin.
 2. Extract these files into %APPDATA%/Grasshopper/Libraries/NexoSolve-Portable-Windows-x64.
@@ -7,6 +7,9 @@ NexoSolve 0.0.1 Beta - Windows x64 / Rhino 8
 5. Open Rhino / Grasshopper and click Open NexoSolve on Connector.
 6. Leave Connector App Path blank to use this fixed installation folder.
    You can set App Path explicitly for a manual installation.
+7. In Grasshopper, click Install NexoSolve in NexoSolve Club once to create the
+   NexoSolve Results Analysis shortcut on your Windows Desktop. The local app
+   opens saved studies without Rhino or Grasshopper.
 
 Automatic app installation: %APPDATA%/Grasshopper/Libraries/NexoSolve-Portable-Windows-x64
 Official samples: %APPDATA%/Grasshopper/Libraries/NexoSolve-Portable-Windows-x64/Samples
