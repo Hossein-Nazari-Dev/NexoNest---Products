@@ -1,0 +1,57 @@
+name: Update NexoSolve samples index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'nexosolve/Samples/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Index official samples
+        shell: python
+        run: |
+          import hashlib
+          import json
+          from pathlib import Path
+          from urllib.parse import quote
+
+          folder = Path('nexosolve/Samples')
+          files = sorted(
+              (p for p in folder.iterdir() if p.is_file() and p.suffix.lower() in ('.gh', '.ghx')),
+              key=lambda p: p.name.lower(),
+          )
+          if len(files) > 100 or len({p.name.lower() for p in files}) != len(files):
+              raise SystemExit('Too many samples or duplicate names')
+          entries = []
+          total = 0
+          for path in files:
+              data = path.read_bytes()
+              total += len(data)
+              if len(data) > 10 * 1024 * 1024 or total > 100 * 1024 * 1024:
+                  raise SystemExit('The sample library exceeds its size limit')
+              sha = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
+              entries.append({
+                  'type': 'file', 'name': path.name, 'sha': sha, 'size': len(data),
+                  'download_url': 'https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/Samples/' + quote(path.name, safe=''),
+              })
+          result = {'schema': 1, 'product': 'nexosolve', 'files': entries}
+          Path('nexosolve/samples.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+      - name: Commit changed index
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add nexosolve/samples.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update NexoSolve samples index'
+            git push
+          fi
