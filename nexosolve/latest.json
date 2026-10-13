@@ -2,25 +2,25 @@
     "assets":  [
                    {
                        "name":  "NexoSolve-Windows-x64.zip",
-                       "browser_download_url":  "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/download/v0.0.2/NexoSolve-Windows-x64.zip"
+                       "browser_download_url":  "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve-Windows-x64.zip"
                    },
                    {
                        "name":  "NexoSolve-Windows-x64.zip.sha256",
-                       "browser_download_url":  "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/download/v0.0.2/NexoSolve-Windows-x64.zip.sha256"
+                       "browser_download_url":  "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve-Windows-x64.zip.sha256"
                    },
                    {
                        "name":  "NexoSolve.gha",
-                       "browser_download_url":  "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/download/v0.0.2/NexoSolve.gha"
+                       "browser_download_url":  "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve.gha"
                    },
                    {
                        "name":  "NexoSolve.gha.sha256",
-                       "browser_download_url":  "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/download/v0.0.2/NexoSolve.gha.sha256"
+                       "browser_download_url":  "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve.gha.sha256"
                    }
                ],
     "draft":  false,
     "display_version":  "0.0.2 Beta",
-    "html_url":  "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/releases/tag/v0.0.2",
-    "build_id":  "20261013T214902453Z",
+    "html_url":  "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/tree/main/nexosolve",
+    "build_id":  "20261013T220540929Z",
     "tag_name":  "v0.0.2",
     "channel":  "beta",
     "sample_files":  [
