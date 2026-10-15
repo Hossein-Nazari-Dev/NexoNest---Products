@@ -4,6 +4,13 @@
   "files": [
     {
       "type": "file",
+      "name": "FindSmallestCircle.gh",
+      "sha": "000fa675247b83821f5f23c7820fc07773e796f5",
+      "size": 13818,
+      "download_url": "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/Samples/FindSmallestCircle.gh"
+    },
+    {
+      "type": "file",
       "name": "test01.gh",
       "sha": "baafb55dc9a11ced66b67d7eaa81e1f08390adaa",
       "size": 1222,
