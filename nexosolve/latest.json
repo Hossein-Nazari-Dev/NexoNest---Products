@@ -1,33 +1,33 @@
 {
-    "assets":  [
-                   {
-                       "name":  "NexoSolve-Windows-x64.zip",
-                       "browser_download_url":  "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve-Windows-x64.zip"
-                   },
-                   {
-                       "name":  "NexoSolve-Windows-x64.zip.sha256",
-                       "browser_download_url":  "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve-Windows-x64.zip.sha256"
-                   },
-                   {
-                       "name":  "NexoSolve.gha",
-                       "browser_download_url":  "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve.gha"
-                   },
-                   {
-                       "name":  "NexoSolve.gha.sha256",
-                       "browser_download_url":  "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve.gha.sha256"
-                   }
-               ],
-    "draft":  false,
-    "display_version":  "0.0.2 Beta",
-    "html_url":  "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/tree/main/nexosolve",
-    "build_id":  "20261014T124722236Z",
-    "tag_name":  "v0.0.2",
-    "channel":  "beta",
-    "sample_files":  [
-                         "README.md",
-                         "version.txt"
-                     ],
-    "schema":  1,
-    "product":  "nexosolve",
-    "prerelease":  true
+  "assets": [
+    {
+      "browser_download_url": "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve-Windows-x64.zip",
+      "name": "NexoSolve-Windows-x64.zip"
+    },
+    {
+      "browser_download_url": "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve-Windows-x64.zip.sha256",
+      "name": "NexoSolve-Windows-x64.zip.sha256"
+    },
+    {
+      "browser_download_url": "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve.gha",
+      "name": "NexoSolve.gha"
+    },
+    {
+      "browser_download_url": "https://raw.githubusercontent.com/Hossein-Nazari-Dev/NexoNest---Products/main/nexosolve/NexoSolve.gha.sha256",
+      "name": "NexoSolve.gha.sha256"
+    }
+  ],
+  "draft": false,
+  "html_url": "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/tree/main/nexosolve",
+  "channel": "beta",
+  "prerelease": true,
+  "display_version": "0.0.2 Beta",
+  "product": "nexosolve",
+  "build_id": "20261019T160009823Z",
+  "schema": 1,
+  "sample_files": [
+    "README.md",
+    "version.txt"
+  ],
+  "tag_name": "v0.0.2"
 }

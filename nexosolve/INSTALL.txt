@@ -7,14 +7,16 @@ NexoSolve 0.0.2 Beta - Windows x64 / Rhino 8
 5. Open Rhino / Grasshopper and click Open NexoSolve on Connector.
 6. Leave Connector App Path blank to use this fixed installation folder.
    You can set App Path explicitly for a manual installation.
-7. In Grasshopper, click Install NexoSolve in NexoSolve Club once to create the
+7. In Grasshopper, click Download / Update NexoSolve in NexoSolve Club to create the
    NexoSolve Results Analysis shortcut on your Windows Desktop. The local app
    opens saved studies without Rhino or Grasshopper.
 
 Automatic app installation: %APPDATA%/Grasshopper/Libraries/NexoSolve-Portable-Windows-x64
 Official samples: %APPDATA%/Grasshopper/Libraries/NexoSolve-Portable-Windows-x64/Samples
 Club > Open NexoSolve folder opens that location. Close the app before deleting it manually.
-The GHA belongs in Grasshopper Libraries and requires a Rhino restart after replacement.
+Manage GHA installation and updates through Rhino Package Manager when the package is published.
+Club downloads/updates only the app and official samples; it does not update GHA.
+The separate GHA is also supplied for manual installation; close Rhino before replacement.
 
 No online installation is required. The Windows runtime is included.
 Keep simulation results outside this installation folder.
