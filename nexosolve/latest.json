@@ -18,16 +18,16 @@
     }
   ],
   "draft": false,
+  "tag_name": "v0.0.3",
   "html_url": "https://github.com/Hossein-Nazari-Dev/NexoNest---Products/tree/main/nexosolve",
+  "build_id": "20261019T162044605Z",
   "channel": "beta",
   "prerelease": true,
-  "display_version": "0.0.2 Beta",
-  "product": "nexosolve",
-  "build_id": "20261019T160009823Z",
   "schema": 1,
   "sample_files": [
     "README.md",
     "version.txt"
   ],
-  "tag_name": "v0.0.2"
+  "display_version": "0.0.3 Beta",
+  "product": "nexosolve"
 }
